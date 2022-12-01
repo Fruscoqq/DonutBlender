@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.donut-text {
+    position: fixed;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight:900;
+    right: 45%;
+    bottom: 40%;
+    text-transform: uppercase;
+    transform: translate(-45%, -40%);
+}
+
+.box1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9rem;
+}
